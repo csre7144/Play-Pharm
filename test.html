@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>California Map with Pop-up Location</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 50px;
+      background: #eef2f3;
+      font-family: Arial, sans-serif;
+    }
+    .map-container {
+      position: relative;
+      display: inline-block;
+    }
+    .map-image {
+      width: 400px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+    .location-dot {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-color: red;
+      border: 2px solid white;
+      border-radius: 50%;
+      top: 60%;  /* Adjust according to your location */
+      left: 40%; /* Adjust according to your location */
+      transform: translate(-50%, -50%) scale(0);
+      animation: pop 1s ease-out forwards;
+      animation-delay: 1s;
+      box-shadow: 0 0 10px rgba(255,0,0,0.7);
+    }
+    @keyframes pop {
+      0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+      }
+      70% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>California Map</h1>
+
+<div class="map-container">
+  <!-- Replace src with your California map image URL or SVG -->
+  <img class="map-image" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Map_of_California_NA.png" alt="California Map">
+  <div class="location-dot"></div>
+</div>
+
+</body>
+</html>

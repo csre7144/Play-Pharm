@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Playa Pharmacy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }   
+
+    
+    .contactpg {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* padding: 40px; */
+    }
+
+    .left {
+      width: 40%;
+    }
+
+    .left img {
+      max-width: 69%;
+      border-radius: 10px;
+    }
+
+    .right {
+      width: 55%;
+      margin-right: 100px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #181d38;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .formpg {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    input {
+      /* padding: 12px; */
+      padding: 20px;
+      border-radius: 6px;
+      border: none;
+      /* width: 48%; */
+      width: 48%;
+      font-size: 16px;
+    }
+
+    /* .full-width {
+      width: 100%;
+    } */
+
+    button {
+      background-color: #4f7c2e;
+      color: white;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: #c9e265;
+      color: #000;
+
+    }
+  </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+     
+
+    <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light p-3 animate__slideInUp" style="position:fixed; top:0px; width:100%; z-index:1030; border-bottom: 1px solid #cdcdcd;">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <!-- <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Medizo Pharmacy</h2> -->
+             <img src="img/Playa_logo.jpeg" alt="" class="" >
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="#index.html" class="nav-item nav-link active">Home</a>
+                <a href="#about.html" class="nav-item nav-link">About</a>
+                <a href="#service.html" class="nav-item nav-link">Service</a>
+                <a href="#contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- test -->
+     
+    <!-- end -->
+    
+    <!-- Carousel Start -->
+    <div class="container p-5 mt-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mt-5">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="mt-5">
+                                    <h5 class="text-uppercase mb-3 animated slideInDown" style="color: #085371">Playa Pharmcy Pharmacy</h5>
+                                    <h1 class="display-3 animated text-dark slideInDown">Providing <span style="color: #085371">100%</span> Pure Pharmacy</h1>
+                                    <div class="d-flex align-items-center deliver">
+                                        <img src="img/free_deliveryy.png" alt="Delivery Icon">
+                                        <p class="fs-5 text-dark">Free Delivery all over California</p>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" style="min-height: 600px;">
+                        <div class="mt-4 position-relative w-100 h-100">
+                            <img class="img-fluid" src="img/slider1.png" style="object-fit: contain; width: 400px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mt-5">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="mt-5">
+                                    <h5 class=" text-uppercase mb-3 slideInDown" style="color: #085371">Playa Pharmcy Pharmacy</h5>
+                                    <h1 class="display-3 animated text-dark slideInDown">Your <span style="color: #085371">Trusted</span> Pharmacy Store</h1>
+                                    <div class="d-flex align-items-center deliver">
+                                        <img src="img/free_deliveryy.png" alt="Delivery Icon">
+                                        <p class="fs-5 text-dark">Free Delivery all over California</p>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" style="min-height: 600px;">
+                        <div class="mt-4 position-relative w-100 h-100">
+                            <img class="img-fluid" src="img/Pharmacy_store.jpg" style="object-fit: contain; width: 400px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mt-5">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="mt-5">
+                                    <h5 class=" text-uppercase mb-3 slideInDown" style="color: #085371">Playa Pharmcy Pharmacy</h5>
+                                    <h1 class="display-3 animated text-dark slideInDown">The Pharmacy that<span style="color: #085371"> Comes</span> to You!</h1>
+                                    <div class="d-flex align-items-center deliver">
+                                        <img src="img/free_deliveryy.png" alt="Delivery Icon">
+                                        <p class="fs-5 text-dark">Free Delivery all over California</p>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" style="min-height: 600px;">
+                        <div class="mt-4 position-relative w-100 h-100">
+                            <img class="img-fluid" src="img/order_medicine.png" style="object-fit: contain; width: 400px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl mb-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <!-- <i class="fa fa-3x fa-truck text-primary mb-4"></i> -->
+                             <img src="img/medicines/delivery.png" alt="">
+                            <!-- <i class="fa-solid fa-truck text-primary mb-4"></i> -->
+                            <h5 class="mb-3">Free Delivery</h5>
+                            <p>For all Orders</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="img/medicines/secure-payment.png" alt="">
+                            <!-- <i class="fa fa-3x fa-credit-card text-primary mb-4"></i> -->
+                            <!-- <i class="fa-solid fa-money-check-dollar"></i> -->
+                            <!-- <i class="fa-solid fa-sack-dollar"></i> -->
+                            <h5 class="mb-3">Safe Payment</h5>
+                            <p>100% Secure Payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="img/medicines/service.png" alt="">
+                            <!-- <i class="fa fa-3x fa-clipboard text-primary mb-4"></i> -->
+                            <!-- <i class="fa-solid fa-clipboard"></i> -->
+                            <h5 class="mb-3">Friendly Services</h5>
+                            <p>Get Refills on-time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- doctor img -->
+    <div class="container-xxl mb-5 text-center">
+        <img src="img/banner_contact.jpg" alt="" style="max-width: 100%;">	
+    </div>
+    <!-- end doctor img -->
+
+    <!-- form -->
+    <div class="container-xxl py-5">
+        <div class="form-wrap">	
+            <h1 class="text-center pb-4">Request Refill</h1>
+            <form id="survey-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- <label id="name-label" for="name">First` Name</label> -->
+                            <input type="text" name="name" id="name" placeholder="Enter your first name" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- <label id="email-label" for="email">Last Name</label> -->
+                            <input type="text" name="lname" id="lname" placeholder="Enter your last name" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <!-- <label id="name-label" for="name">Email</label> -->
+                            <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <!-- <label id="email-label" for="email">Medicine</label> -->
+                            <input type="email" name="email" id="email" placeholder="Enter Your Medicine" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <!-- <label id="email-label" for="email">Date Of Birth</label> -->
+                            <input type="date" name="email" id="email" placeholder="Enter Your Date Of Birth" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <!-- <label>Your RX Number, if known</label> -->
+                            <textarea  id="comments" class="form-control" name="comment" placeholder="Your RX Number, if known"></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row text-center">
+                    <div class="col-12">
+                        <button type="submit" id="submit" class="btn">Submit </button>
+                    </div>
+                </div>
+    
+            </form>
+        </div>	
+    </div>
+    <!-- end form -->
+
+    <!-- Modern PHARMACY Start -->
+    <div class="container-xxl py-5" id="service.html">
+        <div class="container wow fadeInUp">
+            <div class="text-center" >
+                <h6 class="section-title bg-white text-center text-primary px-3">We are a</h6>
+                <h1 class="mb-5">MODERN PHARMACY 𝔀𝓲𝓽𝓱 TRADITIONAL VALUES.</h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                  <img src="img/personalize_care.jpg" alt="Personalized Care">
+                  <div class="card-content">
+                    <h2>Personalized Care</h2>
+                    <p>Every patient is unique. Our pharmacists take the time to understand your needs and provide tailored advice.</p>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <img src="img/Digital_Pharmacy.jpg" alt="Digital Services">
+                  <div class="card-content">
+                    <h2>Digital Services</h2>
+                    <p>Seamless health solutions. From online refills to digital consultations, experience modern convenience.</p>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <img src="img/community_trust.jpg" alt="Community Trust">
+                  <div class="card-content">
+                    <h2>Community Trust</h2>
+                    <p>Serving the community for decades, we've earned the trust and loyalty of generations.</p>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <img src="img/trainign_phamacy22.jpg" alt="Expertise & Training">
+                  <div class="card-content">
+                    <h2>Expertise & Training</h2>
+                    <p>Our continuously trained team ensures you receive the latest healthcare advice and services.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modern PHARMACY End -->
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <!-- <div class="text-center wow fadeInUp" >
+                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div> -->
+            <div class="row g-3">
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="img/pharmacist.jpg" alt="" style="object-fit: cover; max-width: 70%; max-height: 100%;">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow zoomIn" data-wow-delay="0.1s" style="min-height: 350px;">
+                    <div>
+                        <div class="d-flex">
+                            <!-- <h2 class="icon">📖</h2> -->
+                            <!-- <i class="fa-brands fa-leanpub"></i> -->
+                            <i class="fab fa-leanpub" style="font-size: 32px;color: var(--primary); margin-right: 10px;"></i>
+                            <h3>Our Legacy</h3>
+                        </div>
+                        <p style="padding-left: 50px;">Playa Pharmacy has been a beacon of health in the Cudahy Neighborhood. As an independent pharmacy, our roots run deep, and our commitment to personal care remains unwavering.</p>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <!-- <i class="fab fa-leanpub" style="font-size: 32px;color: var(--primary); margin-right: 10px;"></i> -->
+                            <img src="img/personal_iconn.png" alt="personalize_care" style="width: 6%; color: var(--primary); margin-right: 10px;">
+                            <h3>Personalized Care</h3>
+                        </div>
+                        <p style="padding-left: 50px;">Our philosophy is simple: know our patients and cater to their unique needs. When you walk through our doors, you're not just a customer; you're part of our community. Expect to see familiar faces ready to serve you with promptness and efficiency.</p>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <!-- <i class="fab fa-leanpub" style="font-size: 32px;color: var(--primary); margin-right: 10px;"></i> -->
+                             <img src="img/Embracing.png" alt="embracing" style="width: 6%; color: var(--primary); margin-right: 10px;">
+                            <h3>Embracing the Future</h3>
+                        </div>
+                        <p style="padding-left: 50px;">While our foundation is built on tradition, we're not bound by it. We're constantly evolving, leveraging the latest technologies to bring our renowned personal service and care right to your fingertips. Because at Playa Pharmacy, your health is more than just our mission—it's our passion.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about.html">
+        <div class="container">
+            <div class="row g-2 about-pg">
+                <div class="col-lg-6 wow fadeInUp" >
+                    <!-- <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/pharmacist.jpg" alt="" style="object-fit: cover;">
+                    </div> -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid" src="img/medicine_delivery22.jpg" alt="" style="object-fit: cover; max-width: 100%; max-height: 100%;">
+                    </div>                    
+                </div>
+                <div class="about-pg-item col-lg-6 wow fadeInUp"  style="margin-top: 110px;">
+                    <h1 class="mb-4">Proudly Serving Patients in</h1>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Bell</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Bell Gardens</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Maywood</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Lynwood</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>South Gate</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Downey</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0" style="color: #000;"><i class="fa fa-circle me-2" style="color: #008037; font-size: 14px;"></i>Huntington Park</p>
+                        </div>
+                    </div>
+                    <h6 class="bg-white text-start pe-3" style="font-size: larger; color: #008037;">And all over California</h6>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    
+
+    <!-- Medicine  Start -->
+    <div class="container-xxl py-5">
+        <div class="container wow fadeInUp" data-wow-delay="0.1s">
+            <div class="text-center wow fadeInUp" >
+                <!-- <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6> -->
+                <h1 class="mb-5">Medicine Categories</h1>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-lg-3 col-md-6" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/tablets.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Tablet</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/capsule.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Capsule</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/eye-drops.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Eye/Eardrops</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/syringe.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Injection</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/Creams.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Creams</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/syrup.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Suspension/Syrup</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/Inhaler.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Inhaler</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" >
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/medicines/other.png" alt="" style="padding: 20px;">  
+                        </div>
+                        <div class="text-center p-3">
+                            <h5 class="mb-0">Others</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Medicine  End -->
+
+
+    <!-- Contact Start -->
+    <!-- <div id="contact.html" style="background: linear-gradient(90deg, #537536 0%, #2F431D 100%); height: 496px;">
+        <div class="contactpg">
+            <div class="left">
+                <img src="img/per01.png" alt="Doctor on Phone">
+            </div>
+            <div class="right">
+                <h1 class="text-light">Request A Call Back</h1>
+                <p class="text-light">Have a question or need assistance? Request a call back, and one of our friendly team members will reach out to you soon.</p>
+                
+                <form class="formpg">
+                <input  type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email Address" required>
+                
+                <input type="tel" placeholder="+1" required>
+                
+                <button type="submit">SEND NOW</button>
+                </form>
+            </div>
+        </div>
+    </div> -->
+    
+    <!-- Contact End -->
+
+    
+    <!-- Contact Start -->
+    <div id="contact.html" class="contactpage py-5" style="background: linear-gradient(90deg, #43ab2e 30%, #085371 70%);">
+        <div class="container">
+            <img src="img/per01.png" alt="" >
+            <div class="contactpf">
+                <div class="row align-items-center">
+                <div class="col-md-12 text-light" style="margin-top: 50px;">
+                    <h1 class="mb-3 text-light">Request A Call Back</h1>
+                    <p class="mb-4">Have a question or need assistance? Request a call back, and one of our friendly team members will reach out to you soon.</p>
+                    
+                    <form>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        
+                        <div class="col-6">
+                            <button type="submit">Send Now</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-light footer mt-2 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-3 mb-3">
+                    <img src="img/Playa_logo.jpeg" alt="" style="max-width: 65%;">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-dark mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="policy.html" style="color: black;">Privacy Policy</a>
+                    <a class="btn btn-link" href="terms.html" style="color: black;">Terms & Condition</a>
+                    <a class="btn btn-link" href="refund.html" style="color: black;">Return and Refunds</a>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-dark mb-3">Contact</h4>
+                    <p class="mb-2 text-dark"><i class="fa fa-map-marker-alt me-3"></i>800 N Tustin Ave, Unit K, Santa Ana, CA 92705, United States</p>
+                    <p class="mb-2 text-dark"><i class="fa fa-phone-alt me-3"></i><a href="tel:+1 (714) 558-1900" class="text-dark">+1 (714) 558-1900</a></p>
+                    <p class="mb-2 text-dark"><i class="fa fa-envelope me-3"></i>example@Playa.com</p>
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyrightpgg">
+        <div class="container">
+                <div class="text-light text-center text-center">
+                        &copy; Copyright 2026 Playa Pharmacy, All rights reserved.
+                    </div>
+            </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="bi bi-arrow-up" style="color: white;"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

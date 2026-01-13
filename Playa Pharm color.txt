@@ -1,0 +1,5 @@
+Playa Pharm color:
+
+#085371 - Blue
+#43ab2e - Green
+#127a41 - some green
